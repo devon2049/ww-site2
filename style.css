@@ -1,0 +1,45 @@
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.carousel-item {
+    transition: -webkit-transform 5s ease;
+    transition: transform 5s ease;
+    transition: transform 5s ease, -webkit-transform 5s ease;
+}
+  
+.content-4 {
+/* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the items */
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 100%; /* Ensure the menu item takes full width */
+}
+
+.day-and-images {
+    display: flex;
+    justify-content: center; /* Center the day and images horizontally */
+    align-items: center;
+    width: 100%; /* Ensure this row takes full width */
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the offers text */
+    width: 100%; /* Ensure the offers take full width */
+}

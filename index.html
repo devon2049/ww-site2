@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WW</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark py-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/ww.png" alt="" width="100" height="50" class="d-inline-block align-text-top" href="index.html">
+            The Waltzing Weasel - London, Ontario
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fs-3" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#food">Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#beer">Beer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#wine">Wine</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#hours">Hours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!-- CAROUSEL -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/building3_5.png" class="d-block w-100 image-fluid object-fit-cover" alt="...">
+      <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+        <h1>Welcome to Our Place!</h1>
+        <h3>Located at 1324 Adelaide St N, London, Ontario</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/inside2_1.png" class="d-block w-100 image-fluid object-fit-cover" alt="...">
+      <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+        <h1>Voted Best Pub in London!</h1>
+        <h3>Experience our cozy, British charm.<h3>
+        <h3>Dine-in * Outdoor Seating * Take-out<h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/food2.jpg" class="d-block w-100 image-fluid object-fit-cover" alt="...">
+      <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+        <h1>Come Try Our Daily Special Dishes!</h1>
+        <h3>Everyday Mon-Sun we have daily dishes to enjoy.</h3>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- DAILY SPECIALS -->
+<div class="container">
+  <div class="content-4">
+    <p class=" text-center fs-1 fw-bolder pt-5">Daily Food & Drink Specials</p>
+    <div class="menu-item">
+        <div class="day-and-images">
+            <h1>TACO SPECIAL</h1>
+            <img src="images/taco.svg" width="50" height="50">
+        </div>
+        <div class="offers">
+            <h3>All day, everyday!</h3>
+            <h3>2 for $10 or 3 for $14.50</h3>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="day-and-images">
+            <h1>MONDAY</h1>
+            <img src="images/drumstick.svg" width="50" height="50">
+            <img src="images/beer.svg" width="50" height="50">
+        </div>
+        <div class="offers">
+            <h3>Half priced wings (All day)</h3>
+            <h3>20oz Bud Light Pints $7.75</h3>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="day-and-images">
+            <h1>TUESDAY</h1>
+            <img src="images/burger.svg" width="50" height="50">
+            <img src="images/beer.svg" width="50" height="50">
+        </div>
+        <div class="offers">
+            <h3>A delicious cheeseburger & fries $15.50 (All day)</h3>
+            <h3>Selected 20oz domestic pints $7.75</h3>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="day-and-images">
+            <h1>WEDNESDAY</h1>
+            <img src="images/beef.svg" width="50" height="50">
+            <img src="images/wine.svg" width="50" height="50">
+        </div>
+        <div class="offers">
+            <h3>AAA 8oz Top Sirloin topped w mushrooms, served w fries or mashed <br> or a tossed or Caesar salad $19 (From 11:30am - 9:00pm)</h3>
+            <h3>Enjoy a 9oz glass of Peller Estate Cabernet Merlot or Chardonnay for the $ of a 6oz glass</h3>
+            <h3>Bottles of Corona $6.50</h3>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="day-and-images">
+            <h1>THURSDAY</h1>
+            <img src="images/pie.svg" width="50" height="50">
+            <img src="images/beer.svg" width="50" height="50">
+        </div>
+        <div class="offers">
+            <h3>Shepherd's Pie - golden piped potatoes cover a heaping blend of beef, lamb, pork and mixed vegetables, <br> served with your choice of a tossed or Caesar salad $17 (From 11:30am — 9pm)</h3>
+            <h3>* Sorry, Shepherd's Pie is not available for Take-out.</h3>
+            <h3>Irish Pints $8.50</h3>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="day-and-images">
+            <h1>FRIDAY & SATURDAY</h1>
+            <img src="images/ribs.svg" width="50" height="50">
+            <img src="images/drumstick.svg" width="50" height="50">
+        </div>
+        <div class="offers">
+            <h3>Full rack of in-house smoked baby back pork ribs and a half pound of chicken wings, <br> served with fries or mashed or a tossed or Caesar salad $27 (From 4:00pm - 9:00pm)</h3>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="day-and-images">
+            <h1>SUNDAY</h1>
+            <img src="images/fish.svg" width="50" height="50">
+            <img src="images/ceaser.svg" width="50" height="50">
+        </div>
+        <div class="offers">
+            <h3>One piece Fish 'n Chips $13 (From 4:00pm — 8:00pm)</h3>
+            <h3>Bloody Caesars $5.75</h3>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOD MENUS -->
+<p class="text-center fs-1 fw-bolder pt-5" id="food">FOOD MENU</p>
+<p class="text-center fs-3 pt-3">We're proud of our staff and the great food we feature every day! <br> We bake our Chicken Pot Pies, Steak and Guinness Pies, and Steak and Kidney Pies daily. <br> Our ribs are smoked low and slow on our patio! <br> <br> (click on a menu to open in a new tab to zoom in)</p>
+
+<a href="images/menu_1.jpg" target="_blank">
+  <img src="images/menu_1.jpg" alt="Menu 1" width="500" height="900">
+</a>
+<a href="images/menu_2.jpg" target="_blank">
+  <img src="images/menu_2.jpg" alt="Menu 2" width="500" height="900">
+</a>
+<a href="images/menu_3.jpg" target="_blank">
+  <img src="images/menu_3.jpg" alt="Menu 3" width="500" height="900">
+</a>
+
+<p class="text-center fs-3 pt-3 pb-5">Please Note: Our French Onion Soup, Escargot, Shepherd's Pie, Steak & Kidney Pie, Chicken Pot Pie <br> and Steak & Stout Pie are not available for Take-out.</p>
+  
+<!-- DRINKS MENU-->
+<p class=" text-center fs-1 fw-bolder pt-5" id="beer">BEER MENU</p>
+<p class="text-center fs-4 pb-5">Proudly serving...</p>
+
+<div class="container">
+  <div class="row pb-5">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/keiths-3.png" class="img-fluid" alt="Image 1" width="200" height="200">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/anderson-2.jpg" class="img-fluid" alt="Image 2" width="200" height="200">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/budlight-3.jpg" class="img-fluid" alt="Image 3" width="200" height="200">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/guiness-3.jpg" class="img-fluid" alt="Image 4" width="200" height="200">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/harp-5-3.jpg" class="img-fluid" alt="Image 3" width="200" height="200">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/stella-2-3.jpg" class="img-fluid" alt="Image 3" width="200" height="200">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/millstreet-1.jpg" class="img-fluid" alt="Image 3" width="200" height="200">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="images/corona-1.jpg" class="img-fluid" alt="Image 3" width="200" height="200">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Layout Structure -->
+  <div class="row mb-4">
+    <!-- Section 1 -->
+    <div class="col-md-6 mb-4">
+      <section id="d_draft">
+        <h2 class="mb-3">Domestic Draft</h2>
+        <div class="row">
+          <!-- Wine Item -->
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Alexander Keith's India Pale Ale</h5>
+                <h5 class="card-title">Alexander Keith's Red</h5>
+                <h5 class="card-title">Beaus Lug Tread</h5>
+                <h5 class="card-title">Bud Light</h5>
+                <h5 class="card-title">Stella Artois Pilsner</h5>
+                <h5 class="card-title">Michelob Ultra</h5>
+                <h5 class="card-title">Mill Street Organic Lager</h5>
+                <h5 class="card-title">Mill Street Organic Pilsner</h5>
+                <h5 class="card-title">Anderson IPA</h5>
+                <h5 class="card-title">Anderson Cream Ale</h5>
+                <h5 class="card-title">Anderson Gold Lager</h5>
+                <h5 class="card-title">Shake Lager</h5>
+                <!-- <p class="card-text"></p> -->
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for other wines -->
+        </div>
+      </section>
+    </div>
+    <!-- Section 2 -->
+    <div class="col-md-6 mb-4">
+      <section id="i_draft">
+        <h2 class="mb-3">Imported Draught</h2>
+        <div class="row">
+          <!-- Beer Item -->
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Guinness</h5>
+                <h5 class="card-title">Harp</h5>
+                <h5 class="card-title">Kilkenny</h5>
+                <h5 class="card-title">Smithwicks</h5>
+                <h5 class="card-title">Hoegaarden</h5>
+                <!-- <p class="card-text"></p> -->
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for other beers -->
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <!-- Section 3 -->
+    <div class="col-md-6 mb-4">
+      <section id="cans">
+        <h2 class="mb-3">Cans</h2>
+        <div class="row">
+          <!-- Sparkling Wine Item -->
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Shock Top</h5>
+                <h5 class="card-title">Bang A Rang Lemonade Hard Seltzer</h5>
+                <h5 class="card-title">Somersby Apple Cider</h5>
+                <h5 class="card-title">Guinness "0" - Alcohol Free</h5>
+                <!-- <p class="card-text"></p> -->
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for other sparkling wines -->
+        </div>
+      </section>
+    </div>
+    <!-- Section 4 -->
+    <div class="col-md-6 mb-4">
+      <section id="ciders">
+        <h2 class="mb-3">Cider of Tap</h2>
+        <div class="row">
+          <!-- Cider Item -->
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mill Street  1904 Dry Cider</h5>
+                <!-- <p class="card-text"></p> -->
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for other ciders -->
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <!-- Section 5 -->
+    <div class="col-md-12 mb-4">
+      <section id="beer">
+        <h2 class="mb-3">Bottled Beer</h2>
+        <div class="row">
+          <!-- Specialty Drink Item -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Keith's</h5>
+                <h5 class="card-title">Michelob Ultra</h5>
+                <h5 class="card-title">Blue</h5>
+                <h5 class="card-title">Blue Light</h5>
+                <h5 class="card-title">Budweiser</h5>
+                <h5 class="card-title">Bud Light</h5>
+                <h5 class="card-title">Corona</h5>
+                <h5 class="card-title">New Grist Gluten Free</h5>
+                <h5 class="card-title">Corona Sunbrew - Alcohol Free</h5>
+                <!-- <p class="card-text"></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- WINES -->
+<p class=" text-center fs-1 fw-bolder pt-5" id="wine">WINE MENU</p>
+<p class="text-center fs-4 pb-5">Proudly serving...</p>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-6 col-md-4 col-lg-3 pt-5 pb-5">
+      <img src="images/ap-1.jpg" class="img-fluid" alt="Image 1" width="600" height="100">
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 pb-5">
+      <img src="images/tw-1.jpg" class="img-fluid" alt="Image 2" width="600" height="300">
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <!-- Red Wine Section -->
+    <div class="col-md-6 mb-4">
+      <section id="red-wines">
+        <h2 class="mb-3">Red Wine</h2>
+        <div class="row">
+          <!-- Specialty Drink Item -->
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Wayne Gretzky Estates — Merlot</h5>
+                <h5 class="card-title">Woodbridge — Merlot</h5>
+                <h5 class="card-title">Luigi Righetti — Valpolicella Classico</h5>
+                <h5 class="card-title">Peller Estate Select — Cabernet Merlot</h5>
+                <h5 class="card-title">Trapiche Reserve — Malbec</h5>
+                <h5 class="card-title">Wolf Blass Yellow Label — Cabernet Sauvignon</h5>
+                <h5 class="card-title">Beringer — California Cabernet Sauvignon</h5>
+                <h5 class="card-title">Six Rows — Shiraz</h5>
+                <!-- <p class="card-text"></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- White Wine Section -->
+    <div class="col-md-6 mb-4">
+      <section id="white-wines">
+        <h2 class="mb-3">White Wine</h2>
+        <div class="row">
+          <!-- Specialty Drink Item -->
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Terre Gaie — Pinot Grigio</h5>
+                <h5 class="card-title">Crush — Pinot Grigio</h5>
+                <h5 class="card-title">Lindeman's Bin 65 — Chardonnay</h5>
+                <h5 class="card-title">Peller Estate Reserve — Chardonnay</h5>
+                <h5 class="card-title">Trius — Sauvignon Blanc</h5>
+                <h5 class="card-title">Woodbridge - Sauvignon Blanc</h5>
+                <h5 class="card-title">Trius — Dry Reisling</h5>
+                <h5 class="card-title">Beringer — White Zinfandel</h5>
+                <h5 class="card-title">L'Orangeraie — Rose</h5>
+                <!-- <p class="card-text"></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+</div>
+
+<!-- HOURS -->
+<p class="text-center fs-1 fw-bolder pt-5" id="hours">OUR HOURS</p>
+<div class="container mt-5 pb-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Opening & Closing Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday - Thursday</td>
+            <td>11:30 AM - 10:00 PM</td>
+          </tr>
+          <tr>
+            <td>Friday & Saturday</td>
+            <td>11:30 AM - 11:00 PM</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>11:30 AM - 9:00 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<footer class="bg-dark text-white py-4" id="contact">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque leo ut turpis feugiat, ac posuere quam volutpat.</p>
+          </div>
+          <div class="col-md-4">
+              <h5>Contact</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Email Us - </a></li>
+                  <li><a href="#" class="text-white">Call Us - 519-555-5555</a></li>
+                  <li><a href="#" class="text-white">Visit Us - 1324 Adelaide St N, London</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <ul class="list-unstyled">
+                  <li><a href="https://www.facebook.com/1324waltzing/" class="text-white" target=”_blank”>Facebook</a></li>
+                  <li><a href="#" class="text-white">Twitter</a></li>
+                  <li><a href="#" class="text-white">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="text-center pt-3">
+          <p>&copy; 2024 The Waltzing Weasel. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
+
+
+<a href="#top" id="backToTopBtn">
+  <img src="images/circle-up-solid.svg" width="50" height="50" alt="Back to Top" class="img-fluid">
+</a>
+    
+</body>
+</html>
