@@ -28,6 +28,11 @@
     align-items: center;
 }
 
+#sign-hours {
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
 .content-4 {
 /* background-color: bisque; */
     display: flex;
