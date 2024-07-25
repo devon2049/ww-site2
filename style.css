@@ -16,6 +16,18 @@
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
+#food-sign1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#patio-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-4 {
 /* background-color: bisque; */
     display: flex;
